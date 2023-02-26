@@ -1,79 +1,60 @@
-################## Hero area ##################
 hero_area:
-  enable : true
-  bg_image : "images/header.jpg"
-  overlay : true
-
-################### Gallery ###################
+  enable: true
+  bg_image: images/header.jpg
+  overlay: true
 gallery:
-  enable : true
-  title : "Những bức ảnh ấn tượng"
+  enable: true
+  title: Những bức ảnh ấn tượng
   images:
-    - "images/slider-img-1.jpg"
-    - "images/slider-img-2.jpg"
-    - "images/slider-img-3.jpg"
-    - "images/slider-img-4.jpg"
-    - "images/slider-img-1.jpg"
-    - "images/slider-img-2.jpg"
-    - "images/slider-img-3.jpg"
-    - "images/slider-img-4.jpg"
-
-################ About #######################
+    - images/slider-img-1.jpg
+    - images/slider-img-2.jpg
+    - images/slider-img-3.jpg
+    - images/slider-img-4.jpg
+    - images/slider-img-1.jpg
+    - images/slider-img-2.jpg
+    - images/slider-img-3.jpg
+    - images/slider-img-4.jpg
 about:
-  enable : true
-  image : "images/cooker-img.png"
-  title : "Đầu bếp số 1 thế giới"
-  description : "Tốt nghiệp đại học của mẹ, bằng xuất sắc, sẵn sàng mang đến cho bạn những món ốc tuyệt nhất"
-  
-################# Blog ######################
+  enable: true
+  image: images/cooker-img.png
+  title: Đầu bếp số 1 thế giới
+  description: Tốt nghiệp đại học của mẹ, bằng xuất sắc, sẵn sàng mang đến cho bạn
+    những món ốc tuyệt nhất
 blog:
-  enable : true
-  title : "Bài viết mới nhất"
-  bg_image : "images/blog/blog-bg.jpg"
-  overlay : true
-
-
-################# food Menu ################
+  enable: true
+  title: Bài viết mới nhất
+  bg_image: images/blog/blog-bg.jpg
+  overlay: true
 pricing:
-  enable : true
-  title : "Menu"
-  description: "Già trẻ lớn bé, đều thích ốc, từ 10k đến 100k, đều có ốc cho bạn chọn"
-  subtitle : "Cháy hàng tuần này"
+  enable: true
+  title: Menu
+  description: Già trẻ lớn bé, đều thích ốc, từ 10k đến 100k, đều có ốc cho bạn chọn
+  subtitle: Cháy hàng tuần này
   pricing_item:
-  - title: "Ốc 'cô đơn'"
-    description: "Đi một mình ư? Bầu bạn với anh chủ quán nào!"
-    price : "125.000đ"
-
-  - title: "Ốc 'tình nhân'"
-    description: "Dành cho 2 người, ăn ốc phải có đôi"
-    price : "100.000đ"
-
-  - title: "2 ốc và cái bóng đèn"
-    description: ";)))"
-    price : "20.000đ"
-
-  - title: "Combo ốc 4 (quá lười để nghĩ)"
-    description: "Để trống nhá :D"
-    price : "45.000đ"
-
-  - title: "Combo ốc 5"
-    description: "Combo ốc 5"
-    price : "25.000đ"
-
-################### Subscription ################
+    - title: Ốc 'cô đơn'
+      description: Đi một mình ư? Bầu bạn với anh chủ quán nào!
+      price: 125.000đ
+      object:
+        title: Test1
+        description: Test1
+        price: 100k
+    - title: Ốc 'tình nhân'
+      description: Dành cho 2 người, ăn ốc phải có đôi
+      price: 100.000đ
+      object:
+        title: Test2
+        description: Test2
+        price: 120k
 subscription:
-  enable : true
-  bg_image : "images/subscribe-bg.jpg"
-  title : "Đăng ký theo dõi chúng tôi"
-  description : "Đăng ký theo dõi chúng tôi"
-  #Mailchimp subscription configaration 
-  form_action : "#"
-  formName : "#"
-  overlay : true
-
-################ Contact #######################
+  enable: true
+  bg_image: images/subscribe-bg.jpg
+  title: Đăng ký theo dõi chúng tôi
+  description: Đăng ký theo dõi chúng tôi
+  form_action: "#"
+  formName: "#"
+  overlay: true
 contact:
-  enable : true
-  title: "Liên hệ qua email"
-  subtitle: "Liên hệ qua email"
-  form_action : "https://formsubmit.co/minhtienit99@gmail.com" #contact form works with formspree.io
+  enable: true
+  title: Liên hệ qua email
+  subtitle: Liên hệ qua email
+  form_action: https://formsubmit.co/minhtienit99@gmail.com
