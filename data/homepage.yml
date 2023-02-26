@@ -62,18 +62,18 @@ pricing:
 
 ################### Subscription ################
 subscription:
-  enable : false
+  enable : true
   bg_image : "images/subscribe-bg.jpg"
   title : "Đăng ký theo dõi chúng tôi"
   description : "Đăng ký theo dõi chúng tôi"
   #Mailchimp subscription configaration 
-  form_action : "https://themefisher.us9.list-manage.com/subscribe/post?u=f95ece2732a6e9925f2e70a61&amp;id=b1e227529e"
-  formName : "b_f95ece2732a6e9925f2e70a61_b1e227529e"
+  form_action : "#"
+  formName : "#"
   overlay : true
 
 ################ Contact #######################
 contact:
-  enable : false
-  title: "Đăng ký qua email"
-  subtitle: "Đăng ký qua email"
-  form_action : "#" #contact form works with formspree.io
+  enable : true
+  title: "Liên hệ qua email"
+  subtitle: "Liên hệ qua email"
+  form_action : "https://formsubmit.co/minhtienit99@gmail.com" #contact form works with formspree.io
