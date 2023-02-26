@@ -1,0 +1,79 @@
+################## Hero area ##################
+hero_area:
+  enable : true
+  bg_image : "images/header.jpg"
+  overlay : true
+
+################### Gallery ###################
+gallery:
+  enable : true
+  title : "Những bức ảnh ấn tượng"
+  images:
+    - "images/slider/slider-img-1.jpg"
+    - "images/slider/slider-img-2.jpg"
+    - "images/slider/slider-img-3.jpg"
+    - "images/slider/slider-img-4.jpg"
+    - "images/slider/slider-img-1.jpg"
+    - "images/slider/slider-img-2.jpg"
+    - "images/slider/slider-img-3.jpg"
+    - "images/slider/slider-img-4.jpg"
+
+################ About #######################
+about:
+  enable : true
+  image : "images/cooker-img.png"
+  title : "Đầu bếp số 1 thế giới"
+  description : "Tốt nghiệp đại học của mẹ, bằng xuất sắc, sẵn sàng mang đến cho bạn những món ốc tuyệt nhất"
+  
+################# Blog ######################
+blog:
+  enable : true
+  title : "Bài viết mới nhất"
+  bg_image : "images/blog/blog-bg.jpg"
+  overlay : true
+
+
+################# food Menu ################
+pricing:
+  enable : true
+  title : "Menu"
+  description: "Già trẻ lớn bé, đều thích ốc, từ 10k đến 100k, đều có ốc cho bạn chọn"
+  subtitle : "Cháy hàng tuần này"
+  pricing_item:
+  - title: "Ốc 'cô đơn'"
+    description: "Đi một mình ư? Bầu bạn với anh chủ quán nào!"
+    price : "125.000đ"
+
+  - title: "Ốc 'tình nhân'"
+    description: "Dành cho 2 người, ăn ốc phải có đôi"
+    price : "100.000đ"
+
+  - title: "2 ốc và cái bóng đèn"
+    description: ";)))"
+    price : "20.000đ"
+
+  - title: "Combo ốc 4 (quá lười để nghĩ)"
+    description: "Để trống nhá :D"
+    price : "45.000đ"
+
+  - title: "Combo ốc 5"
+    description: "Combo ốc 5"
+    price : "25.000đ"
+
+################### Subscription ################
+subscription:
+  enable : false
+  bg_image : "images/subscribe-bg.jpg"
+  title : "Đăng ký theo dõi chúng tôi"
+  description : "Đăng ký theo dõi chúng tôi"
+  #Mailchimp subscription configaration 
+  form_action : "https://themefisher.us9.list-manage.com/subscribe/post?u=f95ece2732a6e9925f2e70a61&amp;id=b1e227529e"
+  formName : "b_f95ece2732a6e9925f2e70a61_b1e227529e"
+  overlay : true
+
+################ Contact #######################
+contact:
+  enable : false
+  title: "Đăng ký qua email"
+  subtitle: "Đăng ký qua email"
+  form_action : "#" #contact form works with formspree.io
