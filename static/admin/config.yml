@@ -47,24 +47,24 @@ collections:
               - label: Description
                 name: description
                 widget: text
-          - file: "content/test.yml"
-            label: "test"
-            name: "Test"
+      - file: "content/test.yml"
+        label: "test"
+        name: "Test"
+        fields:
+          - label: About
+            name: about
+            widget: list
             fields:
-              - label: About
-                name: about
-                widget: list
-                fields:
-                  - label: Enable
-                    name: enable
-                    widget: boolean
-                    default: true
-                  - label: Image
-                    name: image
-                    widget: image
-                  - label: Title
-                    name: title
-                    widget: string
-                  - label: Description
-                    name: description
-                    widget: text
+              - label: Enable
+                name: enable
+                widget: boolean
+                default: true
+              - label: Image
+                name: image
+                widget: image
+              - label: Title
+                name: title
+                widget: string
+              - label: Description
+                name: description
+                widget: text
