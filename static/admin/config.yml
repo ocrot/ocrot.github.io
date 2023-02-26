@@ -20,3 +20,27 @@ collections:
       - { label: "Intro Blurb", name: "description", widget: "text" }
       - { label: "Type", name: "type", widget: "select",options: [ "post" ], default: "post" }
       - { label: "Body", name: "body", widget: "markdown" }
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "data/homepage.yml"
+        label: "Home Page"
+        name: "homepage"
+        fields:
+          - label: About
+            name: about
+            widget: list
+            fields:
+              - label: Enable
+                name: enable
+                widget: boolean
+                default: true
+              - label: Image
+                name: image
+                widget: image
+              - label: Title
+                name: title
+                widget: string
+              - label: Description
+                name: description
+                widget: text
