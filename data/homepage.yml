@@ -7,7 +7,7 @@ hero_area:
 ################### Gallery ###################
 gallery:
   enable : true
-  title : "FEATURED WORKS"
+  title : "Những bức ảnh ấn tượng"
   images:
     - "images/slider/slider-img-1.jpg"
     - "images/slider/slider-img-2.jpg"
@@ -22,13 +22,13 @@ gallery:
 about:
   enable : true
   image : "images/cooker-img.png"
-  title : "Featured Your <span> Restaurant’s</span> Website Has To Look Good"
-  description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in </br>voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat Ut enim ad minim veniam"
+  title : "Đầu bếp số 1 thế giới"
+  description : "Tốt nghiệp đại học của mẹ, bằng xuất sắc, sẵn sàng mang đến cho bạn những món ốc tuyệt nhất"
   
 ################# Blog ######################
 blog:
   enable : true
-  title : "Our Latest <span>Blog</span>"
+  title : "Bài viết mới nhất"
   bg_image : "images/blog/blog-bg.jpg"
   overlay : true
 
@@ -36,36 +36,36 @@ blog:
 ################# food Menu ################
 pricing:
   enable : true
-  title : "Our Easy <span>PRICE</span>"
-  description: " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco"
-  subtitle : "FEATURED ON THE WEEK"
+  title : "Menu"
+  description: "Già trẻ lớn bé, đều thích ốc, từ 10k đến 100k, đều có ốc cho bạn chọn"
+  subtitle : "Cháy hàng tuần này"
   pricing_item:
-  - title: "Pancakes n' Such Titas"
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
-    price : "$ 125.00"
+  - title: "Ốc 'cô đơn'"
+    description: "Đi một mình ư? Bầu bạn với anh chủ quán nào!"
+    price : "125.000đ"
 
-  - title: "Caesar Salad"
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
-    price : "$ 100.00"
+  - title: "Ốc 'tình nhân'"
+    description: "Dành cho 2 người, ăn ốc phải có đôi"
+    price : "100.000đ"
 
-  - title: "Steak with a Garlic and Parsley Risotto"
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
-    price : "$ 20.00"
+  - title: "2 ốc và cái bóng đèn"
+    description: ";)))"
+    price : "20.000đ"
 
-  - title: "Meat of Skewers"
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
-    price : "$ 45.00"
+  - title: "Combo ốc 4 (quá lười để nghĩ)"
+    description: "Để trống nhá :D"
+    price : "45.000đ"
 
-  - title: "Pancakes n' Such"
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
-    price : "$ 25.00"
+  - title: "Combo ốc 5"
+    description: "Combo ốc 5"
+    price : "25.000đ"
 
 ################### Subscription ################
 subscription:
-  enable : true
+  enable : false
   bg_image : "images/subscribe-bg.jpg"
-  title : "SUBSCRIBE to our <span>NEWSLETTER</span>"
-  description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+  title : "Đăng ký theo dõi chúng tôi"
+  description : "Đăng ký theo dõi chúng tôi"
   #Mailchimp subscription configaration 
   form_action : "https://themefisher.us9.list-manage.com/subscribe/post?u=f95ece2732a6e9925f2e70a61&amp;id=b1e227529e"
   formName : "b_f95ece2732a6e9925f2e70a61_b1e227529e"
@@ -73,7 +73,7 @@ subscription:
 
 ################ Contact #######################
 contact:
-  enable : true
-  title: "Let's <span> Contact Us </span>"
-  subtitle: "SIGN UP FOR EMAIL ALERTS"
+  enable : false
+  title: "Đăng ký qua email"
+  subtitle: "Đăng ký qua email"
   form_action : "#" #contact form works with formspree.io
