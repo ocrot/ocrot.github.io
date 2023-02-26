@@ -137,7 +137,7 @@ image = "images/slider-img-2.jpg"
 ######################## Social Icon 
 [[params.footer.socialLink]]
 icon = "facebook"
-link = "https://fb.com/ocrot"
+link = "https://www.facebook.com/hoangthan1999"
 
 [[params.footer.socialLink]]
 icon = "twitter"
