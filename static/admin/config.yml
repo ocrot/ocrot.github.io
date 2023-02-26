@@ -53,18 +53,4 @@ collections:
         fields:
           - label: About
             name: about
-            widget: list
-            fields:
-              - label: Enable
-                name: enable
-                widget: boolean
-                default: true
-              - label: Image
-                name: image
-                widget: image
-              - label: Title
-                name: title
-                widget: string
-              - label: Description
-                name: description
-                widget: text
+            widget: string
