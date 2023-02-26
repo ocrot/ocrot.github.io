@@ -9,14 +9,14 @@ gallery:
   enable : true
   title : "Những bức ảnh ấn tượng"
   images:
-    - "images/slider/slider-img-1.jpg"
-    - "images/slider/slider-img-2.jpg"
-    - "images/slider/slider-img-3.jpg"
-    - "images/slider/slider-img-4.jpg"
-    - "images/slider/slider-img-1.jpg"
-    - "images/slider/slider-img-2.jpg"
-    - "images/slider/slider-img-3.jpg"
-    - "images/slider/slider-img-4.jpg"
+    - "images/slider-img-1.jpg"
+    - "images/slider-img-2.jpg"
+    - "images/slider-img-3.jpg"
+    - "images/slider-img-4.jpg"
+    - "images/slider-img-1.jpg"
+    - "images/slider-img-2.jpg"
+    - "images/slider-img-3.jpg"
+    - "images/slider-img-4.jpg"
 
 ################ About #######################
 about:
