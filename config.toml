@@ -112,7 +112,7 @@ content = "ĐT9 - Mỹ Hạnh Nam - Đức Hoà - Long An <br> (đối diện t�
 
 [[params.footer.contactItem]]
 title = "Giờ mở cửa"
-icon = "fa-regular fa-clock"
+icon = "fa fa-clock"
 content = "T2 - T7: 17:00 - 22:00 <br> CN: 17:00 - 21:00"
 
 [[params.footer.contactItem]]
