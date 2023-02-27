@@ -108,7 +108,12 @@ content = "090900khôngcó"
 [[params.footer.contactItem]]
 title = "Địa chỉ"
 icon = "fa fa-map-marker"
-content = "Mỹ Hạnh Bắc - Đức Hoà - Long An <br> (gần ngã tư Út Cứu)"
+content = "ĐT9 - Mỹ Hạnh Nam - Đức Hoà - Long An <br> (đối diện tạp hoá Anh Tài)"
+
+[[params.footer.contactItem]]
+title = "Giờ mở cửa"
+icon = "fa-regular fa-clock"
+content = "T2 - T7: 17:00 - 22:00 <br> CN: 17:00 - 21:00"
 
 [[params.footer.contactItem]]
 title = "Email"
@@ -137,15 +142,11 @@ image = "images/slider-img-2.jpg"
 ######################## Social Icon 
 [[params.footer.socialLink]]
 icon = "facebook"
-link = "https://www.facebook.com/hoangthan1999"
+link = "https://fb.com/hoangthan1999"
 
 [[params.footer.socialLink]]
-icon = "twitter"
-link = "https://fb.com/ocrot"
-
-[[params.footer.socialLink]]
-icon = "dribbble"
-link = "https://fb.com/ocrot"
+icon = "facebook"
+link = "https://fb.com/104600149239783"
 
 [[params.footer.socialLink]]
 icon = "instagram"
