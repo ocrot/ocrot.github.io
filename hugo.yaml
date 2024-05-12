@@ -4,6 +4,7 @@ title: Ốc Rốt
 module:
   imports:
     - path: github.com/themefisher/restaurant-hugo
+enableRobotsTXT: true
 summaryLength: 10
 paginate: 4
 
