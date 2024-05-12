@@ -1,4 +1,4 @@
-baseURL: /
+baseURL: https://ocrot.github.io/
 languageCode: vi-vn
 title: Ốc Rốt
 module:
@@ -33,25 +33,18 @@ menu:
       url: contact-us
       weight: 6
 
-#################### default parameters ################################
 params:
   logo: images/logo.png
-  # meta data
-  author: MiTi99
+  author: miti99
   description: Just a developer want to become magician
-  # google analitycs ID
   google_analitycs_id: G-BETBKBFEGN
-  # mainSections
   main_sections:
     - post
-  # copyright
-  copyright: Made by [MiTi99](https://miti99.eu.org) with ❤
-  # Preloader
+  copyright: Made by [miti99](https://tiennm99.github.io) with ❤
   preloader:
     enable: false
     preloader: "" # use .png , .svg or .gif format
 
-  ################################### Footer ############################
   footer:
     enable: true
     contactInfoTitle: "Thông tin <span>Liên hệ</span> "
@@ -59,11 +52,10 @@ params:
     galleryTitle: "Thư viện <span>ảnh</span>"
     socialTitle: "Theo dõi <span>Ốc Rốt</span>"
 
-    ############################ footer contact item
     contactItem:
       - title: Điện thoại
         icon: fa fa-phone
-        content: 090900khôngcó
+        content: 0908 746 572
 
       - title: Địa chỉ
         icon: fa fa-map-marker
@@ -71,13 +63,12 @@ params:
 
       - title: Giờ mở cửa
         icon: fa fa-clock-o
-        content: "T2 - T7: 17:00 - 22:00 <br> CN: 17:00 - 21:00"
+        content: "Các ngày trong tuần: 15:00 - 23:00"
 
       - title: Email
         icon: fa fa-envelope
         content: ocrot@gmail.com
 
-    ######################### footer gallery
     gallery:
       - image: images/slider-img-1.jpg
       - image: images/slider-img-2.jpg
@@ -86,14 +77,11 @@ params:
       - image: images/slider-img-1.jpg
       - image: images/slider-img-2.jpg
 
-    ######################## Social Icon
     socialLink:
       - icon: facebook
         link: https://fb.com/hoangthan1999
       - icon: facebook
         link: https://fb.com/104600149239783
-      - icon: instagram
-        link: https://fb.com/ocrot
   plugins:
     css:
       - URL: css/bootstrap.min.css
@@ -104,7 +92,6 @@ params:
       - URL: css/main.css
       - URL: css/responsive.css
 
-    # JS Plugins
     js:
       - URL: js/jquery.min.js
       - URL: js/bootstrap.min.js
